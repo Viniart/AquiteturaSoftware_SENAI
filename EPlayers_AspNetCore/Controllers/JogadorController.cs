@@ -13,6 +13,8 @@ namespace Controllers
         [Route("Listar")]
         public IActionResult Index()
         {
+            ViewBag.Equipes = equipe.ReadAll();
+
             ViewBag.Jogadores = jogadorModel.ReadAll();
             return View();
   
@@ -28,12 +30,10 @@ namespace Controllers
             novoJogador.Email = form["Email"];
             novoJogador.Senha = form["Senha"];
 
-            ViewBag.Equipes = equipe.ReadAll();
-
             jogadorModel.Create(novoJogador);
             ViewBag.Jogadores = jogadorModel.ReadAll();
 
-            return LocalRedirect("~/Jogador");
+            return LocalRedirect("~/Jogador/Cadastrar");
         }
     }
 }
