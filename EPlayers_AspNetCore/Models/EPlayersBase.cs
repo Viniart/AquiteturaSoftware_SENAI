@@ -26,7 +26,7 @@ namespace EPlayers_AspNetCore.Models
         {
             List<string> linhas = new List<string>();
 
-            // using => Abrir e fechar determinado tipo de arqivo ou conexão
+            // using => Abrir e fechar determinado tipo de arquivo ou conexão
             // StreamReader -> Ler as informações do meu CSV
             using (StreamReader file = new StreamReader(path))
             {

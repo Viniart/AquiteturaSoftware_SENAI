@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lYeMwcMY/berqwUf1xFXvSPKAaORe83A/z+sFx0f702Shx+KG7c5J1E7jgVxjTVEaCqGbfpGgCquXpQdY1qaVQ==",
+  "dgSpecHash": "fMBFTNvVHcAbrd2SEkEpx0l92JNhGGMtWUntAG/GgscfOOkJzmeKeWzavpkcO/8vELgHizA66pSl+InMNtnC2g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Desktop\\Desktop\\Codação\\Backend\\Arquitetura de Software\\EPlayers_AspNetCore\\EPlayers_AspNetCore.csproj",
+  "projectFilePath": "C:\\Users\\fic\\Desktop\\E-Players\\EPlayers_AspNetCore\\EPlayers_AspNetCore.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

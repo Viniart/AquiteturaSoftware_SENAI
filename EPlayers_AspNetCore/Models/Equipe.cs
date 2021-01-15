@@ -6,6 +6,7 @@ namespace EPlayers_AspNetCore.Models
 {
     public class Equipe : EPlayersBase , IEquipe
     {
+        // dotnet watch run - n precisa ficar iniciando toda hora
         // ID - Identificador Único
         public int IdEquipe { get; set; }
         public string Nome { get; set; }
